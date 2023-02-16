@@ -74,6 +74,16 @@ vishalmamidi.com.       0       IN      A       185.199.109.153
 
 ```
 
+```bash
+dig +short vishalmamidi.com
+```
+```console
+185.199.108.153
+185.199.110.153
+185.199.111.153
+185.199.109.153
+```
+
 ## telnet ( need to give port )
 ```bash
 telnet vishalmamidi.com 80

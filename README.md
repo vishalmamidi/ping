@@ -45,7 +45,9 @@ vishalmamidi.com has address 185.199.110.153
 vishalmamidi.com has address 185.199.111.153
 vishalmamidi.com has address 185.199.109.153
 ```
-
+```
+host -a vishalmamidi.com
+```
 ### dig
 ```bash
 dig vishalmamidi.com

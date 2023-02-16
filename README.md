@@ -27,6 +27,19 @@ vishalmamidi.com.       0       IN      A       185.199.108.153
 vishalmamidi.com.       0       IN      A       185.199.111.153
 vishalmamidi.com.       0       IN      A       185.199.110.153
 ```
+
+
+## telnet ( need to give port )
+```bash
+telnet vishalmamidi.com 80
+```
+```console
+Trying 185.199.108.153...
+Connected to vishalmamidi.com.
+Escape character is '^]'.
+```
+
+
 ### nslookup
 ```bash
 nslookup vishalmamidi.com
@@ -96,16 +109,16 @@ dig +short vishalmamidi.com
 185.199.109.153
 ```
 
-## telnet ( need to give port )
+## getent
 ```bash
-telnet vishalmamidi.com 80
+getent hosts vishalmamidi.com
 ```
 ```console
-Trying 185.199.108.153...
-Connected to vishalmamidi.com.
-Escape character is '^]'.
+185.199.109.153 vishalmamidi.com
+185.199.108.153 vishalmamidi.com
+185.199.111.153 vishalmamidi.com
+185.199.110.153 vishalmamidi.com
 ```
-
 
 ## will run over internet 
 <https://toolbox.googleapps.com/apps/dig/#ANY/>

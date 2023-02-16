@@ -97,5 +97,7 @@ Escape character is '^]'.
 ```
 
 
+## will run over internet 
+<https://toolbox.googleapps.com/apps/dig/#ANY/>
 
 

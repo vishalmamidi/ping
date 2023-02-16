@@ -17,6 +17,16 @@ apk add curl
 
 ### samples to check hostname is accessable 
 
+### dig simple 
+```bash
+dig +noall +answer vishalmamidi.com
+```
+```console 
+vishalmamidi.com.       0       IN      A       185.199.109.153
+vishalmamidi.com.       0       IN      A       185.199.108.153
+vishalmamidi.com.       0       IN      A       185.199.111.153
+vishalmamidi.com.       0       IN      A       185.199.110.153
+```
 ### nslookup
 ```bash
 nslookup vishalmamidi.com
